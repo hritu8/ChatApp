@@ -3,7 +3,7 @@ import {
   Send as SendIcon,
 } from "@mui/icons-material";
 import { IconButton, Stack } from "@mui/material";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import FileMenu from "../components/dialogs/FileMenu";
 import AppLayout from "../components/layout/AppLayout";
 import { InputBox } from "../components/styles/StyledComponents";
