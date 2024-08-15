@@ -8,6 +8,7 @@ const AddMemberDialog = ({ addMember, isLoadingAddMember, chatId }) => {
   const [selectedMembers, setSelectedMembers] = useState([]);
 
   const selectMemberHandler = (id) => {
+    console.log(id, " id");
     setSelectedMembers((prev) =>
       prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id]
     );
